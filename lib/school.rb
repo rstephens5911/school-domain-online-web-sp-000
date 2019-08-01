@@ -11,6 +11,7 @@ class School
   end
 
   def add_student(student_name, grade)
+<<<<<<< HEAD
     if roster.has_key?(grade)
       roster[grade] << student_name
     else
@@ -33,4 +34,13 @@ class School
     end
     sorted_hash
   end
+=======
+    if grade != nil
+      roster[grade] << student_name
+    end
+  end
+
+
+
+>>>>>>> 88d51ed243a9d2b42fbcacb81088399b741bd8c7
 end
